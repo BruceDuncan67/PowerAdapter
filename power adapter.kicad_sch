@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 144.78) (xy 148.59 142.24)
+			(xy 140.97 143.51) (xy 140.97 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1210,6 +1210,26 @@
 			(type default)
 		)
 		(uuid "e438bf66-f877-43ef-8d31-f0b4c6160abe")
+	)
+	(wire
+		(pts
+			(xy 140.97 143.51) (xy 148.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e525d889-18ec-4469-920f-ade657f42402")
+	)
+	(wire
+		(pts
+			(xy 148.59 143.51) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a39205-c0bf-4212-a0c1-5ff669685db5")
 	)
 	(symbol
 		(lib_id "power:+12C")
@@ -2125,7 +2145,7 @@
 	)
 	(symbol
 		(lib_id "adapterlib:bananaJack")
-		(at 161.29 123.19 0)
+		(at 153.67 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2134,7 +2154,7 @@
 		(fields_autoplaced yes)
 		(uuid "e751793c-ed5c-4074-a308-ad5a11e13287")
 		(property "Reference" "jk2"
-			(at 175.26 113.7925 0)
+			(at 167.64 64.2625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,7 +2163,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 175.26 115.6976 0)
+			(at 167.64 66.1676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2152,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" "adapterpcblib:Banana"
-			(at 161.29 123.19 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 123.19 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,7 +2190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 123.19 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +2199,7 @@
 			)
 		)
 		(property "mfp#" "CONN BANANA JACK SLDR TABS "
-			(at 161.29 123.19 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
