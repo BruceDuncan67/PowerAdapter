@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA388IDGKR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2019-02-11 11:48:15
+Downloaded=2025-09-19 18:47:30
+3D=Y

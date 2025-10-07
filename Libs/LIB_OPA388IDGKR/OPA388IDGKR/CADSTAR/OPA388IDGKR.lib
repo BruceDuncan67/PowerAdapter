@@ -1,0 +1,16 @@
+.OPA388IDGKR :1 ;10MHz, CMOS, Zero-Drift, Zero-Crossover, True RRIO Precision Operational Amplifier
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="-IN" 3="+IN" 4="V-" 5="NC_2" 6="OUT" 7="V+" 8="NC_3"
+*MXP 8
+*DFN OPA388IDGKR
+~!Mouser Part Number (595-OPA388IDGKR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA388IDGKR?qs=HXFqYaX1Q2zq4dYzVXACyQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPA388IDGKR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/opa388)
+~!Height (1.1mm)
+~!3D_Model (OPA388IDGKR)
+OPA388IDGKR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
