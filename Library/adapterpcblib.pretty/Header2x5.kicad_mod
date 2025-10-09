@@ -172,13 +172,13 @@
 	)
 	(model "${KIPRJMOD}/Library/Models/2x5header/6120XX21621_61201021621.step"
 		(offset
-			(xyz 0 -5.715 6.35)
+			(xyz 0 -5.08 4.445)
 		)
 		(scale
 			(xyz 1 2 1)
 		)
 		(rotate
-			(xyz 0 0 -90)
+			(xyz 0 0 90)
 		)
 	)
 )
