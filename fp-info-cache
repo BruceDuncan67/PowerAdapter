@@ -1,4 +1,4 @@
-24689536141325083
+24689536151838143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99138,8 +99138,8 @@ Header2x5
 
 
 0
-0
-0
+10
+10
 adpterpcblib
 Banana
 
@@ -99152,8 +99152,8 @@ Header2x5
 
 
 0
-0
-0
+10
+10
 customfootprints
 2x5header
 2x5shroulded headerEuroPower

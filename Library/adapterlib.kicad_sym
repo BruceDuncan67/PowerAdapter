@@ -286,7 +286,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -1.27 0)
 				(length 3.81)
 				(name "Pin_1"
@@ -304,7 +304,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 12.7 -11.43 180)
 				(length 3.81)
 				(name "Pin_10"
@@ -322,7 +322,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 12.7 -1.27 180)
 				(length 3.81)
 				(name "Pin_2"
@@ -358,7 +358,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 12.7 -3.81 180)
 				(length 3.81)
 				(name "Pin_4"
@@ -376,7 +376,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -6.35 0)
 				(length 3.81)
 				(name "Pin_5"
@@ -394,7 +394,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 12.7 -6.35 180)
 				(length 3.81)
 				(name "Pin_6"
@@ -412,7 +412,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 0 -8.89 0)
 				(length 3.81)
 				(name "Pin_7"
@@ -430,7 +430,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 12.7 -8.89 180)
 				(length 3.81)
 				(name "Pin_8"
@@ -448,7 +448,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -11.43 0)
 				(length 3.81)
 				(name "Pin_9"
