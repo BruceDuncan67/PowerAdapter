@@ -72,17 +72,35 @@
 						(type background)
 					)
 				)
-				(pin input line
-					(at -12.7 -19.05 90)
+				(pin no_connect line
+					(at -36.83 10.16 0)
 					(length 2.54)
-					(name "1"
+					(name "m1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number ""
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -19.05 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -762,7 +780,7 @@
 				)
 			)
 		)
-		(symbol "power:+12C"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -779,7 +797,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+12C"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -805,7 +823,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+12C\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -823,7 +841,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+12C_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -861,7 +879,7 @@
 					)
 				)
 			)
-			(symbol "+12C_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1279,16 +1297,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 80.01 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35f88262-55a3-43eb-9e51-78b6a8dda30e")
-	)
-	(wire
-		(pts
 			(xy 34.29 49.53) (xy 44.45 49.53)
 		)
 		(stroke
@@ -1299,7 +1307,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 21.59) (xy 31.75 26.67)
+			(xy 31.75 20.32) (xy 31.75 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1369,16 +1377,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 143.51) (xy 140.97 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64009ba8-00ca-44d3-ac0f-89e7d49c2cc1")
-	)
-	(wire
-		(pts
 			(xy 34.29 63.5) (xy 34.29 68.58)
 		)
 		(stroke
@@ -1389,6 +1387,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 69.85) (xy 241.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf3f6b4-89e9-437f-a03c-bbc369ee2109")
+	)
+	(wire
+		(pts
 			(xy 21.59 43.18) (xy 21.59 36.83)
 		)
 		(stroke
@@ -1396,6 +1404,16 @@
 			(type default)
 		)
 		(uuid "6c0a2cbf-2e7b-4d75-bded-d21baf29dabb")
+	)
+	(wire
+		(pts
+			(xy 138.43 143.51) (xy 138.43 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db0ad18-1ace-4af1-83eb-257407f1cd7c")
 	)
 	(wire
 		(pts
@@ -1479,23 +1497,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 143.51) (xy 148.59 143.51)
+			(xy 167.64 139.7) (xy 167.64 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e525d889-18ec-4469-920f-ade657f42402")
-	)
-	(wire
-		(pts
-			(xy 148.59 143.51) (xy 148.59 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a39205-c0bf-4212-a0c1-5ff669685db5")
+		(uuid "df36a2f8-31cf-42ce-ba6f-855899f4d0fc")
 	)
 	(wire
 		(pts
@@ -1518,34 +1526,35 @@
 		(uuid "fe989ce0-7c8f-41a8-99e8-d88b21cffd92")
 	)
 	(symbol
-		(lib_id "power:+12C")
-		(at 80.01 80.01 0)
+		(lib_id "adapterlib:bananaJack")
+		(at 254 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "05338b19-3adc-4b93-a3bd-fdbf4aa2bf43")
-		(property "Reference" "#PWR7"
-			(at 80.01 83.82 0)
+		(uuid "06093c70-3eef-4062-87e5-26e071b27f68")
+		(property "Reference" "jk3"
+			(at 267.97 40.1325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+12C"
-			(at 80.01 74.93 0)
+		(property "Value" "~"
+			(at 267.97 42.0376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 80.01 80.01 0)
+		(property "Footprint" "adapterpcblib:Banana"
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 80.01 0)
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,22 +1571,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 80.01 80.01 0)
+		(property "Description" ""
+			(at 254 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "mfp#" "CONN BANANA JACK SLDR TABS "
+			(at 267.97 43.9425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "e6bf5a74-f33a-48bc-83c7-d00a93975aae")
 		)
 		(pin "1"
-			(uuid "a11615df-8bdf-4239-b228-5ac49ea06481")
+			(uuid "4b44ebdf-87aa-4789-8683-4f8865bbe5e5")
 		)
 		(instances
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "#PWR7")
+					(reference "jk3")
 					(unit 1)
 				)
 			)
@@ -1721,6 +1742,85 @@
 		)
 	)
 	(symbol
+		(lib_id "adapterlib:bananaJack")
+		(at 180.34 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "306a2e98-68d2-4c98-a108-cd55177ba49d")
+		(property "Reference" "jk1"
+			(at 194.31 103.6325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 194.31 105.5376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "adapterpcblib:Banana"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfp#" "CONN BANANA JACK SLDR TABS "
+			(at 194.31 107.4425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "54a62bea-cf2b-4b3f-8e3d-877f3fc63dbf")
+		)
+		(pin "2"
+			(uuid "37e67e20-6ab2-48b8-b401-357484703fb7")
+		)
+		(instances
+			(project ""
+				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
+					(reference "jk1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 48.26 49.53 0)
 		(unit 1)
@@ -1788,7 +1888,7 @@
 	)
 	(symbol
 		(lib_id "power:-12V")
-		(at 148.59 144.78 180)
+		(at 167.64 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1797,7 +1897,7 @@
 		(fields_autoplaced yes)
 		(uuid "3739bc0a-7d4d-4a70-9157-0ba83f9641d8")
 		(property "Reference" "#PWR6"
-			(at 148.59 140.97 0)
+			(at 167.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1906,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 148.59 149.86 0)
+			(at 167.64 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 144.78 0)
+			(at 167.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 144.78 0)
+			(at 167.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-12V\""
-			(at 148.59 144.78 0)
+			(at 167.64 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,17 +2087,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12C")
-		(at 31.75 21.59 0)
+		(lib_id "power:+12V")
+		(at 31.75 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "754eda90-ce5d-4ffc-bccf-efb0a9915305")
+		(uuid "6700466d-6887-46c5-b00c-0409e75ceea2")
 		(property "Reference" "#PWR4"
-			(at 31.75 25.4 0)
+			(at 31.75 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,8 +2105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12C"
-			(at 31.75 16.51 0)
+		(property "Value" "+12V"
+			(at 31.75 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 21.59 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 21.59 0)
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,8 +2131,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12C\""
-			(at 31.75 21.59 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 31.75 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,10 +2141,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a69a5ead-10bd-475b-903a-1f73b38041ad")
+			(uuid "7d65730a-c321-49fc-ad8a-61c9a1f272e2")
 		)
 		(instances
-			(project ""
+			(project "power adapter"
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "#PWR4")
 					(unit 1)
@@ -2185,81 +2285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adapterlib:bananaJack")
-		(at 67.31 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a69b9546-d9e1-45c6-b035-9e58e91228d5")
-		(property "Reference" "jk1"
-			(at 106.68 114.8072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 106.68 116.7123 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "adapterpcblib:Banana"
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mfp#" "CONN BANANA JACK SLDR TABS "
-			(at 67.31 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e014b944-71da-48d7-84b3-05e1b1854595")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "jk1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 30.48 26.67 270)
 		(unit 1)
@@ -2327,35 +2352,34 @@
 		)
 	)
 	(symbol
-		(lib_id "adapterlib:bananaJack")
-		(at 234.95 118.11 0)
+		(lib_id "power:+12V")
+		(at 138.43 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9a9ed92-76ac-40f0-a789-ad9b22dce394")
-		(property "Reference" "jk3"
-			(at 248.92 108.5849 0)
+		(uuid "cb14cad5-b52d-4b8d-9c9a-0dc3a79cd908")
+		(property "Reference" "#PWR10"
+			(at 138.43 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 248.92 110.49 0)
+		(property "Value" "+12V"
+			(at 138.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "adapterpcblib:Banana"
-			(at 234.95 118.11 0)
+		(property "Footprint" ""
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2364,7 +2388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 118.11 0)
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,8 +2396,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 118.11 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,21 +2405,13 @@
 				(hide yes)
 			)
 		)
-		(property "mfp#" "CONN BANANA JACK SLDR TABS "
-			(at 234.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "383e7ab3-996a-4b9f-9cf2-37db619e262d")
+		(pin "1"
+			(uuid "b3b5d1b6-8424-480f-887b-8b6bd0c72594")
 		)
 		(instances
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "jk3")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -2472,81 +2488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adapterlib:bananaJack")
-		(at 153.67 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e751793c-ed5c-4074-a308-ad5a11e13287")
-		(property "Reference" "jk2"
-			(at 167.64 64.2625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 167.64 66.1676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adapterpcblib:Banana"
-			(at 153.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mfp#" "CONN BANANA JACK SLDR TABS "
-			(at 153.67 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "819fb5c9-a088-4434-891c-ad2e7826d09c")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "jk2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "adapterlib:header2x5")
 		(at 21.59 41.91 0)
 		(unit 1)
@@ -2572,7 +2513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "adapterpcblib:Header2x5"
 			(at 21.59 53.34 0)
 			(effects
 				(font
@@ -2648,16 +2589,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 137.16 0)
+		(at 241.3 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f895a9b6-830b-4fb5-83c9-d89dca2ae4d0")
+		(uuid "ef789af3-509c-41d7-b193-cb2f66317caf")
 		(property "Reference" "#PWR5"
-			(at 222.25 143.51 0)
+			(at 241.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 142.24 0)
+			(at 241.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 137.16 0)
+			(at 241.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 137.16 0)
+			(at 241.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 137.16 0)
+			(at 241.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,12 +2642,91 @@
 			)
 		)
 		(pin "1"
-			(uuid "b5485833-6d7f-4d56-98c2-829fc63a2e03")
+			(uuid "f5262104-d8d9-4ab1-92d0-01038136b44b")
 		)
 		(instances
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "#PWR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "adapterlib:bananaJack")
+		(at 125.73 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa12a1ec-c89c-4788-a9a3-08714b2f06d1")
+		(property "Reference" "jk2"
+			(at 111.76 177.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 111.76 178.9423 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "adapterpcblib:Banana"
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mfp#" "CONN BANANA JACK SLDR TABS "
+			(at 111.76 180.8472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "cd2e51e2-8fad-4426-a1d3-6ad81cbc9a6e")
+		)
+		(pin "1"
+			(uuid "3e589047-f694-4ee4-befe-26a7396b8ce9")
+		)
+		(instances
+			(project ""
+				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
+					(reference "jk2")
 					(unit 1)
 				)
 			)

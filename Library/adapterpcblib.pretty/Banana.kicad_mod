@@ -79,11 +79,16 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "2" thru_hole roundrect
 		(at -10.16 0)
 		(size 7.62 7.62)
 		(drill 1.524)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(roundrect_rratio 0.04921259842)
 		(uuid "e48b06b4-acab-4dc0-bc9b-0258823e2cd7")
@@ -92,13 +97,18 @@
 		(at 0 0)
 		(size 10.8712 10.8712)
 		(drill 8.3312)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(remove_unused_layers no)
 		(uuid "ea49606d-a3ac-4245-a289-36d50484e1d2")
 	)
 	(model "${KIPRJMOD}/Library/Models/BananaJack/Banana/108-0902-001.STEP"
 		(offset
-			(xyz -0.635 0.635 12.7)
+			(xyz -0.635 0.635 7.62)
 		)
 		(scale
 			(xyz 1 1 1)
