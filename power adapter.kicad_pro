@@ -421,7 +421,7 @@
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
-      "unit_value_mismatch": "error",
+      "unit_value_mismatch": "warning",
       "unresolved_variable": "error",
       "wire_dangling": "warning"
     }
