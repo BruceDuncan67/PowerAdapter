@@ -69,17 +69,35 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -12.7 -19.05 90)
+			(pin no_connect line
+				(at -36.83 10.16 0)
 				(length 2.54)
-				(name "1"
+				(name "m1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number ""
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -19.05 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -1,4 +1,4 @@
-24689537261223481
+24696578478198459
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99134,12 +99134,26 @@ Banana
 2
 2
 adapterpcblib
+CAPC1608X90N
+
+ceramicCap0603package
+0
+2
+2
+adapterpcblib
 Header2x5
 
 
 0
 10
 10
+adapterpcblib
+ceramicCap
+
+
+0
+0
+0
 adpterpcblib
 Banana
 
@@ -99148,12 +99162,26 @@ Banana
 2
 2
 adpterpcblib
+CAPC1608X90N
+
+ceramicCap0603package
+0
+2
+2
+adpterpcblib
 Header2x5
 
 
 0
 10
 10
+adpterpcblib
+ceramicCap
+
+
+0
+0
+0
 customfootprints
 2x5header
 2x5shroulded headerEuroPower
