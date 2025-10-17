@@ -3333,6 +3333,15 @@
 				)
 			)
 		)
+		(property "manFp#" "CONN HEADER VERT 10POS 2.54MM"
+			(at 21.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "1b77c5cf-83a7-478e-8d1f-156e62cf9a58")
 		)
