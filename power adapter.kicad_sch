@@ -1474,28 +1474,22 @@
 		)
 	)
 	(junction
-		(at 31.75 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "064121ef-d747-4038-9c20-ed166e6f6ac4")
-	)
-	(junction
 		(at 44.45 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a93306c-a06a-4b82-9c14-c6dba0364dcd")
 	)
 	(junction
-		(at 43.18 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0af734f8-137f-4b0f-ad7d-f2c77201ac95")
-	)
-	(junction
 		(at 34.29 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ab4eac9-c389-46a3-8260-0064d4b8e785")
+	)
+	(junction
+		(at 31.75 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "218e04b7-c2b6-4a9d-8da1-7b4b2e855936")
 	)
 	(junction
 		(at 21.59 48.26)
@@ -1516,6 +1510,12 @@
 		(uuid "4afb198a-8d16-493a-9525-d61cb34debd2")
 	)
 	(junction
+		(at 31.75 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54d683b4-e7a0-4cd2-b1ea-4dd4dd4188a8")
+	)
+	(junction
 		(at 41.91 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1526,6 +1526,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66b52487-ef6f-475c-ba19-7ac1ee6ae0c3")
+	)
+	(junction
+		(at 35.56 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71c652bb-f33f-48c5-bca4-9b2911c08ca0")
 	)
 	(junction
 		(at 34.29 62.23)
@@ -1615,13 +1621,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 22.86) (xy 31.75 26.67)
+			(xy 35.56 27.94) (xy 31.75 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a95364b-540e-4557-ba10-279b272e69e7")
+		(uuid "3e27ff6e-4746-468b-8d2a-7dd417efc4a8")
 	)
 	(wire
 		(pts
@@ -1655,16 +1661,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 43.18 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fdb8a63-7de7-42f8-ab9c-d4bda0366f76")
-	)
-	(wire
-		(pts
 			(xy 35.56 45.72) (xy 35.56 48.26)
 		)
 		(stroke
@@ -1685,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 26.67) (xy 31.75 36.83)
+			(xy 31.75 22.86) (xy 31.75 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1712,6 +1708,16 @@
 			(type default)
 		)
 		(uuid "621ca86a-7d12-4c2d-84fc-3819c181ec96")
+	)
+	(wire
+		(pts
+			(xy 31.75 25.4) (xy 31.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6251cc57-e561-404d-892a-cd71549b5ee4")
 	)
 	(wire
 		(pts
@@ -1755,6 +1761,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 27.94) (xy 31.75 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eca8c24-f217-4e13-adfc-5930b4406c74")
+	)
+	(wire
+		(pts
 			(xy 34.29 36.83) (xy 34.29 43.18)
 		)
 		(stroke
@@ -1762,6 +1778,26 @@
 			(type default)
 		)
 		(uuid "706fa298-5e97-4a42-a369-028751bd1373")
+	)
+	(wire
+		(pts
+			(xy 35.56 27.94) (xy 36.83 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ae2cf9-11ea-4e6d-a0f5-2c84f109ad08")
+	)
+	(wire
+		(pts
+			(xy 43.18 27.94) (xy 43.18 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c76e2e0-3bc3-47c4-ae94-5e9cb7316e3a")
 	)
 	(wire
 		(pts
@@ -1825,16 +1861,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 30.48) (xy 43.18 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c153aaad-0111-47c5-9266-d829234fe9bb")
-	)
-	(wire
-		(pts
 			(xy 21.59 63.5) (xy 31.75 63.5)
 		)
 		(stroke
@@ -1882,16 +1908,6 @@
 			(type default)
 		)
 		(uuid "f7305e16-353f-44dd-b7a7-25d282ef74b1")
-	)
-	(wire
-		(pts
-			(xy 31.75 26.67) (xy 30.48 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe989ce0-7c8f-41a8-99e8-d88b21cffd92")
 	)
 	(symbol
 		(lib_id "adapterlib:bananaJack")
@@ -2831,7 +2847,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 30.48 26.67 270)
+		(at 31.75 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2840,7 +2856,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4b506ee-5d82-4b1d-85cb-ef0d7f068c8d")
 		(property "Reference" "#FLG2"
-			(at 32.385 26.67 0)
+			(at 33.655 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,7 +2865,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 34.29 26.6699 90)
+			(at 35.56 25.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2858,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 26.67 0)
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 26.67 0)
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 30.48 26.67 0)
+			(at 31.75 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3035,7 +3051,7 @@
 	)
 	(symbol
 		(lib_id "adapterlib:ceramiccap")
-		(at 38.1 30.48 0)
+		(at 38.1 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3044,7 +3060,7 @@
 		(fields_autoplaced yes)
 		(uuid "de2e3d53-f365-4c89-9763-871f92178e45")
 		(property "Reference" "C2"
-			(at 39.37 24.13 0)
+			(at 39.37 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3068,7 @@
 			)
 		)
 		(property "Value" ".01uF"
-			(at 39.37 26.67 0)
+			(at 39.37 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3076,7 @@
 			)
 		)
 		(property "Footprint" "adpterpcblib:CAPC1608X90N"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3070,7 +3086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3104,7 @@
 			)
 		)
 		(property "E_max" "0.9"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3114,7 @@
 			)
 		)
 		(property "L_max" "0.5"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3124,7 @@
 			)
 		)
 		(property "A_max" "0.9"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3134,7 @@
 			)
 		)
 		(property "L1_nom" "0.3"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3144,7 @@
 			)
 		)
 		(property "D_max" "1.7"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3154,7 @@
 			)
 		)
 		(property "A_nom" "0.9"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3164,7 @@
 			)
 		)
 		(property "L1_max" "0.5"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3174,7 @@
 			)
 		)
 		(property "L1_min" "0.1"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3184,7 @@
 			)
 		)
 		(property "A_min" "0.9"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3194,7 @@
 			)
 		)
 		(property "E_min" "0.7"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3204,7 @@
 			)
 		)
 		(property "D_min" "1.5"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3214,7 @@
 			)
 		)
 		(property "D_nom" "1.6"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3224,7 @@
 			)
 		)
 		(property "E_nom" "0.8"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3234,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3244,7 @@
 			)
 		)
 		(property "L_min" "0.1"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +3254,7 @@
 			)
 		)
 		(property "L_nom" "0.3"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +3264,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 38.1 30.48 0)
+			(at 38.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
