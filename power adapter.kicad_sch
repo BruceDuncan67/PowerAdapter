@@ -5,85 +5,6 @@
 	(uuid "91d95850-e011-4872-8c18-f0f818ae8f1c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "adapterlib:Edge"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "adpterpcblib:edge"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Edge_1_1"
-				(rectangle
-					(start -22.86 24.13)
-					(end -12.7 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -24.13 -5.08 0)
-					(length 2.54)
-					(name "net"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "adapterlib:bananaJack"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1990,16 +1911,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 73.66) (xy 102.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e199adef-3be2-40cb-a8f4-0394acd4659f")
-	)
-	(wire
-		(pts
 			(xy 21.59 48.26) (xy 21.59 50.8)
 		)
 		(stroke
@@ -2017,16 +1928,6 @@
 			(justify right bottom)
 		)
 		(uuid "0e66703f-f9cd-45a5-a3f8-dc236a0a9aa3")
-	)
-	(label "edge"
-		(at 96.52 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d1c1065-087d-4f4d-9741-323a9c56fa82")
 	)
 	(label "edge"
 		(at 34.29 121.92 180)
@@ -2544,73 +2445,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 105.41 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f83d0dc-2580-4fb1-9781-9d307e6e6b56")
-		(property "Reference" "E4"
-			(at 93.98 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 93.98 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbcb847f-7530-4b41-b292-c60ee0a85d4f")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 16.51 50.8 270)
 		(unit 1)
@@ -3119,73 +2953,6 @@
 		)
 	)
 	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 127 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9371ca1-9e39-46cb-bb9e-80d3ab5e3bfb")
-		(property "Reference" "E1"
-			(at 115.57 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 115.57 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05541f0a-720a-4f68-b29b-cdd2c2f92aa9")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 138.43 143.51 0)
 		(unit 1)
@@ -3246,73 +3013,6 @@
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 99.06 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d34f2d19-3447-4a6a-80c2-a069475c4dd3")
-		(property "Reference" "E2"
-			(at 87.63 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 87.63 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d877de69-738e-4485-9f50-eef68813c745")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E2")
 					(unit 1)
 				)
 			)
@@ -3623,73 +3323,6 @@
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 62.23 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4d01022-8f66-4372-8ff3-2b9fc45094a4")
-		(property "Reference" "E3"
-			(at 50.8 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 50.8 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea91a54d-b93c-40c9-92ec-c74f8c9f5ab4")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E3")
 					(unit 1)
 				)
 			)
