@@ -1,4 +1,4 @@
-24696578478198459
+24701863041478159
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99154,6 +99154,13 @@ ceramicCap
 0
 0
 0
+adapterpcblib
+edge
+
+
+0
+1
+1
 adpterpcblib
 Banana
 
@@ -99182,6 +99189,13 @@ ceramicCap
 0
 0
 0
+adpterpcblib
+edge
+
+
+0
+1
+1
 customfootprints
 2x5header
 2x5shroulded headerEuroPower
@@ -99210,6 +99224,13 @@ CONV_R-78K3.3-0.5
 0
 3
 3
+customfootprints
+Decorativeedge
+
+
+0
+0
+0
 customfootprints
 IC_ESP32-S3
 
