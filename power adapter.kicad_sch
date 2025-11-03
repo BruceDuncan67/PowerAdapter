@@ -2018,6 +2018,36 @@
 		)
 		(uuid "0e66703f-f9cd-45a5-a3f8-dc236a0a9aa3")
 	)
+	(label "PowerNet"
+		(at 167.64 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c048729-18e3-4cb7-b698-c7b8ccca4c0a")
+	)
+	(label "PowerNet"
+		(at 34.29 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d566c84-8bac-428f-9e99-2db1edf521ad")
+	)
+	(label "PowerNet"
+		(at 31.75 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3118d0c2-e28c-443a-b2a6-c722b0c19fec")
+	)
 	(label "edge"
 		(at 96.52 73.66 180)
 		(effects
@@ -2027,6 +2057,16 @@
 			(justify right bottom)
 		)
 		(uuid "5d1c1065-087d-4f4d-9741-323a9c56fa82")
+	)
+	(label "PowerNet"
+		(at 43.18 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dcd298a-9817-49d1-a624-6d5ea8d79a76")
 	)
 	(label "edge"
 		(at 34.29 121.92 180)
@@ -2047,6 +2087,16 @@
 			(justify right bottom)
 		)
 		(uuid "aeed052a-f94c-445e-8ea1-e0fd9058e9f9")
+	)
+	(label "PowerNet"
+		(at 241.3 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e64919bb-6150-4b95-9cd4-2e2a93e792b5")
 	)
 	(symbol
 		(lib_id "adapterlib:bananaJack")
