@@ -1,0 +1,92 @@
+ERC report (2025-11-04T15:31:37-0500, Encoding UTF8)
+
+***** Sheet /
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; warning
+    @(650.00 mils, 2000.00 mils): Symbol #PWR2 Pin 1 [Power input, Line]
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+[pin_to_pin]: Pins of type Power output and Unspecified are connected
+    ; warning
+    @(950.00 mils, 2400.00 mils): Symbol #FLG1 Pin 1 [Power output, Line]
+    @(1350.00 mils, 2700.00 mils): Symbol C4 Pin 2 [Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; warning
+    @(1250.00 mils, 2500.00 mils): Symbol #PWR3 Pin 1 [Power input, Line]
+    @(1350.00 mils, 2700.00 mils): Symbol C4 Pin 2 [Unspecified, Line]
+[undefined_netclass]: Netclass pwr-12V is not defined
+    ; error
+    @(1100.00 mils, 2500.00 mils): Directive Label [Net Class pwr-12V]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; warning
+    @(1800.00 mils, 1800.00 mils): Symbol #PWR1 Pin 1 [Power input, Line]
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+[undefined_netclass]: Netclass pwrGND is not defined
+    ; error
+    @(1600.00 mils, 1800.00 mils): Directive Label [Net Class pwrGND]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; warning
+    @(9500.00 mils, 3150.00 mils): Symbol #PWR5 Pin 1 [Power input, Line]
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; warning
+    @(6600.00 mils, 5500.00 mils): Symbol #PWR6 Pin 1 [Power input, Line]
+    @(1350.00 mils, 2700.00 mils): Symbol C4 Pin 2 [Unspecified, Line]
+[undefined_netclass]: Netclass pwr_12 is not defined
+    ; error
+    @(5450.00 mils, 5950.00 mils): Directive Label [Net Class pwr_12]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(850.00 mils, 1900.00 mils): Symbol U1 Pin 5 [Pin_5, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(1350.00 mils, 1900.00 mils): Symbol U1 Pin 6 [Pin_6, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power output are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(850.00 mils, 2000.00 mils): Symbol U1 Pin 7 [Pin_7, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 2700.00 mils): Symbol C4 Pin 2 [Unspecified, Line]
+    @(850.00 mils, 2100.00 mils): Symbol U1 Pin 9 [Pin_9, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 2700.00 mils): Symbol C4 Pin 2 [Unspecified, Line]
+    @(1350.00 mils, 2100.00 mils): Symbol U1 Pin 10 [Pin_10, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 2700.00 mils): Symbol C4 Pin 2 [Unspecified, Line]
+    @(6600.00 mils, 5250.00 mils): Symbol jk1 Pin 2 [2, Power input, Line]
+[pin_to_pin]: Pins of type Power input and Unspecified are connected
+    ; warning
+    @(1350.00 mils, 3100.00 mils): Symbol #PWR7 Pin 1 [Power input, Line]
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(850.00 mils, 1800.00 mils): Symbol U1 Pin 3 [Pin_3, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(1350.00 mils, 1800.00 mils): Symbol U1 Pin 4 [Pin_4, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(1350.00 mils, 2000.00 mils): Symbol U1 Pin 8 [Pin_8, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(1350.00 mils, 3000.00 mils): Symbol C4 Pin 1 [Unspecified, Line]
+    @(9500.00 mils, 2750.00 mils): Symbol jk3 Pin 2 [2, Power input, Line]
+[conflicting_netclasses]: Conflicting netclass assignments
+    ; error
+    @(5450.00 mils, 5950.00 mils): Directive Label [Net Class pwr_12]
+    @(1250.00 mils, 1400.00 mils): Directive Label [Net Class pwr+12V]
+[undefined_netclass]: Netclass pwr+12V is not defined
+    ; error
+    @(1250.00 mils, 1400.00 mils): Directive Label [Net Class pwr+12V]
+[undefined_netclass]: Netclass pwr+12V is not defined
+    ; error
+    @(1250.00 mils, 1400.00 mils): Directive Label [Net Class pwr+12V]
+
+ ** ERC messages: 23  Errors 6  Warnings 17

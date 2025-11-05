@@ -5,85 +5,6 @@
 	(uuid "91d95850-e011-4872-8c18-f0f818ae8f1c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "adapterlib:Edge"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "adpterpcblib:edge"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Edge_1_1"
-				(rectangle
-					(start -22.86 24.13)
-					(end -12.7 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -24.13 -5.08 0)
-					(length 2.54)
-					(name "net"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "adapterlib:bananaJack"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -183,290 +104,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "adapterlib:ceramiccap"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 3.8109 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "CL10B104KB8NNNC"
-				(at 0 -5.0885 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "adpterpcblib:CAPC1608X90N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "E_max" "0.9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "L_max" "0.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "A_max" "0.9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "L1_nom" "0.3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "D_max" "1.7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "A_nom" "0.9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "L1_max" "0.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "L1_min" "0.1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "A_min" "0.9"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "E_min" "0.7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "D_min" "1.5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "D_nom" "1.6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "E_nom" "0.8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "L_min" "0.1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "L_nom" "0.3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samsung Electro-Mechanics"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ceramiccap_0_0"
-				(rectangle
-					(start 0 -1.9069)
-					(end 0.635 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.9069 -1.9069)
-					(end 2.54 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1553,10 +1190,10 @@
 		)
 	)
 	(junction
-		(at 44.45 49.53)
+		(at 21.59 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0a93306c-a06a-4b82-9c14-c6dba0364dcd")
+		(uuid "105646d9-e28c-4857-8f56-2841791a4966")
 	)
 	(junction
 		(at 34.29 68.58)
@@ -1565,58 +1202,16 @@
 		(uuid "1ab4eac9-c389-46a3-8260-0064d4b8e785")
 	)
 	(junction
-		(at 31.75 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "218e04b7-c2b6-4a9d-8da1-7b4b2e855936")
-	)
-	(junction
 		(at 21.59 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "259c0663-7f0d-49c6-8f0b-2a31a815683b")
 	)
 	(junction
-		(at 34.29 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4af735ea-665e-44d0-8587-d0a0ea904b0c")
-	)
-	(junction
-		(at 21.59 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4afb198a-8d16-493a-9525-d61cb34debd2")
-	)
-	(junction
 		(at 31.75 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54d683b4-e7a0-4cd2-b1ea-4dd4dd4188a8")
-	)
-	(junction
-		(at 41.91 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "604dc759-9209-43fd-bf47-ebc0d435fabc")
-	)
-	(junction
-		(at 34.29 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66b52487-ef6f-475c-ba19-7ac1ee6ae0c3")
-	)
-	(junction
-		(at 35.56 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71c652bb-f33f-48c5-bca4-9b2911c08ca0")
-	)
-	(junction
-		(at 34.29 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98c25128-a1d7-4afa-847e-b37c1d128574")
 	)
 	(junction
 		(at 31.75 36.83)
@@ -1631,16 +1226,16 @@
 		(uuid "b002e6b0-290d-443b-b2a1-38eb9bdb75d9")
 	)
 	(junction
-		(at 34.29 77.47)
+		(at 34.29 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d0ddf57f-542e-4055-b5c7-79a99daf51a6")
+		(uuid "b187f2a8-1392-4cb3-93c3-f7870f1a5a51")
 	)
 	(junction
 		(at 34.29 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d31f4213-4a12-4975-8306-401e90d6ed30")
+		(uuid "c4c3b7a2-f36b-4b99-a319-4fe358710d84")
 	)
 	(junction
 		(at 31.75 63.5)
@@ -1648,25 +1243,21 @@
 		(color 0 0 0 0)
 		(uuid "d3b3b3cd-77d0-434c-8a61-6d6a8f53b114")
 	)
+	(junction
+		(at 24.13 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0003d7d-d77d-44a8-b412-e33a44e312d6")
+	)
 	(wire
 		(pts
-			(xy 34.29 62.23) (xy 34.29 53.34)
+			(xy 34.29 53.34) (xy 34.29 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "062372d4-6429-4927-9d42-4d522ebb089b")
-	)
-	(wire
-		(pts
-			(xy 44.45 49.53) (xy 48.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19cdaf92-fb3f-4500-bb4c-ac3458997b83")
 	)
 	(wire
 		(pts
@@ -1690,43 +1281,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 49.53) (xy 44.45 49.53)
+			(xy 34.29 45.72) (xy 34.29 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3925ee95-536d-4291-ad66-ec80d13fa596")
+		(uuid "325c2579-b664-425e-ab23-6077e65cf17a")
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 31.75 27.94)
+			(xy 34.29 78.74) (xy 34.29 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e27ff6e-4746-468b-8d2a-7dd417efc4a8")
-	)
-	(wire
-		(pts
-			(xy 44.45 69.85) (xy 34.29 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436f7e7d-779e-4287-9cf4-ed72f24f76f0")
-	)
-	(wire
-		(pts
-			(xy 16.51 50.8) (xy 21.59 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b3bde3e-4f3f-47f3-beac-b62721552387")
+		(uuid "47d21071-fc3d-456c-ac7e-efe874cdc9af")
 	)
 	(wire
 		(pts
@@ -1737,26 +1308,6 @@
 			(type default)
 		)
 		(uuid "4eef417a-fada-4cd2-b9fd-cc6e329c4b04")
-	)
-	(wire
-		(pts
-			(xy 35.56 45.72) (xy 35.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511444a6-c9aa-4157-9e0e-1903be60024e")
-	)
-	(wire
-		(pts
-			(xy 34.29 121.92) (xy 38.1 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a52cd5-0b5f-4d8d-864f-a0b3c2b2f371")
 	)
 	(wire
 		(pts
@@ -1780,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 45.72) (xy 34.29 45.72)
+			(xy 34.29 45.72) (xy 45.72 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1790,17 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 63.5) (xy 34.29 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "621ca86a-7d12-4c2d-84fc-3819c181ec96")
-	)
-	(wire
-		(pts
-			(xy 31.75 25.4) (xy 31.75 27.94)
+			(xy 31.75 25.4) (xy 31.75 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1850,16 +1391,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 27.94) (xy 31.75 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eca8c24-f217-4e13-adfc-5930b4406c74")
-	)
-	(wire
-		(pts
 			(xy 34.29 36.83) (xy 34.29 43.18)
 		)
 		(stroke
@@ -1870,63 +1401,33 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 36.83 27.94)
+			(xy 24.13 63.5) (xy 31.75 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79ae2cf9-11ea-4e6d-a0f5-2c84f109ad08")
+		(uuid "73fce165-8233-4630-8024-e65f57b54504")
 	)
 	(wire
 		(pts
-			(xy 43.18 27.94) (xy 43.18 36.83)
+			(xy 16.51 50.8) (xy 21.59 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c76e2e0-3bc3-47c4-ae94-5e9cb7316e3a")
+		(uuid "8010a461-4427-4621-9a66-9df888dab6c7")
 	)
 	(wire
 		(pts
-			(xy 34.29 77.47) (xy 44.45 77.47)
+			(xy 24.13 60.96) (xy 24.13 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88dbffda-30fc-4acd-82f9-f7a8d9255f7e")
-	)
-	(wire
-		(pts
-			(xy 34.29 77.47) (xy 34.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f241047-43a0-445d-9237-bc869f2722a4")
-	)
-	(wire
-		(pts
-			(xy 34.29 49.53) (xy 34.29 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93bae661-77db-4b73-99d9-255448faf69a")
-	)
-	(wire
-		(pts
-			(xy 34.29 48.26) (xy 34.29 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af4844c5-7c64-4d57-a4c5-19d6ee3dbe7e")
+		(uuid "9ea5292c-c89f-414e-8ecd-90a9b0f496a7")
 	)
 	(wire
 		(pts
@@ -1940,17 +1441,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 36.83) (xy 41.91 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02397b1-484d-4d0a-b637-dbd35c546b59")
-	)
-	(wire
-		(pts
-			(xy 21.59 63.5) (xy 31.75 63.5)
+			(xy 21.59 63.5) (xy 24.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1970,16 +1461,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 48.26) (xy 34.29 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cd921a-a58c-4b56-b685-087bdab4b679")
-	)
-	(wire
-		(pts
 			(xy 167.64 139.7) (xy 167.64 133.35)
 		)
 		(stroke
@@ -1987,16 +1468,6 @@
 			(type default)
 		)
 		(uuid "df36a2f8-31cf-42ce-ba6f-855899f4d0fc")
-	)
-	(wire
-		(pts
-			(xy 96.52 73.66) (xy 102.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e199adef-3be2-40cb-a8f4-0394acd4659f")
 	)
 	(wire
 		(pts
@@ -2008,95 +1479,107 @@
 		)
 		(uuid "f7305e16-353f-44dd-b7a7-25d282ef74b1")
 	)
-	(label "edge"
-		(at 74.93 77.47 180)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 34.29 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1add51-2a6b-4eac-9e7f-8f03216bf626")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 40.64 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c2568f3-85eb-4b99-ab98-ad438ed4ffc6")
+		(property "Netclass" "pwrGND"
+			(at 41.2496 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 27.94 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "0e66703f-f9cd-45a5-a3f8-dc236a0a9aa3")
+		(uuid "36b0a8a3-b980-44b4-a040-b8af9e563336")
+		(property "Netclass" "pwr-12V"
+			(at 28.5496 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
-	(label "PowerNet"
-		(at 167.64 134.62 0)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 138.43 151.13 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1c048729-18e3-4cb7-b698-c7b8ccca4c0a")
-	)
-	(label "PowerNet"
-		(at 34.29 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "63144ef3-f8f1-4ed3-a9bc-866dc3c028ef")
+		(property "Netclass" "pwr_12"
+			(at 135.89 150.5204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "1d566c84-8bac-428f-9e99-2db1edf521ad")
 	)
-	(label "PowerNet"
-		(at 31.75 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3118d0c2-e28c-443a-b2a6-c722b0c19fec")
-	)
-	(label "edge"
-		(at 96.52 73.66 180)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 31.75 35.56 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "5d1c1065-087d-4f4d-9741-323a9c56fa82")
-	)
-	(label "PowerNet"
-		(at 43.18 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "8634c42b-a13c-4c99-9318-994ce699a2d6")
+		(property "Netclass" "pwr+12V"
+			(at 34.29 34.9504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
-			(justify left bottom)
 		)
-		(uuid "5dcd298a-9817-49d1-a624-6d5ea8d79a76")
-	)
-	(label "edge"
-		(at 34.29 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f8b7e02-a340-4263-9730-0112f0a06623")
-	)
-	(label "edge"
-		(at 81.28 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aeed052a-f94c-445e-8ea1-e0fd9058e9f9")
-	)
-	(label "PowerNet"
-		(at 241.3 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e64919bb-6150-4b95-9cd4-2e2a93e792b5")
 	)
 	(symbol
 		(lib_id "adapterlib:bananaJack")
@@ -2202,6 +1685,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2260,6 +1744,7 @@
 					(size 1.524 1.524)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "T491C106M025AT7280"
@@ -2396,72 +1881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 48.26 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3688904c-3a03-4852-a455-bc96cd0ab563")
-		(property "Reference" "#PWR1"
-			(at 48.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 48.26 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "06ad03cd-5690-49de-a6d8-12a29f4e1404")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "#PWR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-12V")
 		(at 167.64 139.7 180)
 		(unit 1)
@@ -2529,7 +1948,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 77.47 0)
+		(at 34.29 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2538,7 +1957,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f4b912e-d54c-47e3-8db5-33b1055988ba")
 		(property "Reference" "#PWR7"
-			(at 34.29 83.82 0)
+			(at 34.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +1966,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 82.55 0)
+			(at 34.29 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 77.47 0)
+			(at 34.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +1983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 77.47 0)
+			(at 34.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +1992,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 77.47 0)
+			(at 34.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,73 +2007,6 @@
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 105.41 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f83d0dc-2580-4fb1-9781-9d307e6e6b56")
-		(property "Reference" "E4"
-			(at 93.98 118.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 93.98 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fbcb847f-7530-4b41-b292-c60ee0a85d4f")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E4")
 					(unit 1)
 				)
 			)
@@ -2729,16 +2081,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 34.29 62.23 270)
+		(at 24.13 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "667f280d-4dc6-4d0f-b3e3-96bab828de45")
+		(uuid "7417b975-39f1-40e8-9ae8-0a8116445c3a")
 		(property "Reference" "#FLG1"
-			(at 36.195 62.23 0)
+			(at 24.13 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,16 +2099,15 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 38.1 62.2299 90)
+			(at 24.13 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 62.23 0)
+			(at 24.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 62.23 0)
+			(at 24.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2125,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 34.29 62.23 0)
+			(at 24.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2134,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "99d5341b-ff48-43ba-881f-89bf18d3ab31")
+			(uuid "60ba7539-3deb-4b44-93b6-1f7de82007a1")
 		)
 		(instances
 			(project ""
@@ -2795,258 +2146,17 @@
 		)
 	)
 	(symbol
-		(lib_id "adapterlib:ceramiccap")
-		(at 44.45 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b00eb4b-6074-4ac7-a314-4092b4d59fe0")
-		(property "Reference" "C1"
-			(at 48.26 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ".1uF"
-			(at 48.26 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:CAPC1608X90N"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "E_max" "0.9"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_max" "0.5"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_max" "0.9"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_nom" "0.3"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_max" "1.7"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_nom" "0.9"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_max" "0.5"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_min" "0.1"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_min" "0.9"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_min" "0.7"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_min" "1.5"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_nom" "1.6"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_nom" "0.8"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_min" "0.1"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_nom" "0.3"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57f12192-e62f-4be6-a3a0-9e3f86471105")
-		)
-		(pin "1"
-			(uuid "2138d1cb-7a02-455e-8193-06cdf0a08f30")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 41.91 36.83 0)
+		(at 45.72 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8baeb499-a812-4b69-98d9-0840261d13a6")
-		(property "Reference" "#PWR9"
-			(at 41.91 43.18 0)
+		(uuid "b3a6c6be-7a15-4363-892f-b0c2c57a5fa4")
+		(property "Reference" "#PWR1"
+			(at 52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3055,15 +2165,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 41.91 0)
+			(at 49.53 45.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 36.83 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +2183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 36.83 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +2192,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 36.83 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,12 +2201,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "42e6d693-4a93-4d07-b52d-17299ee3e2f8")
+			(uuid "753f9bea-e964-42ba-88a5-32c7a5840b27")
 		)
 		(instances
-			(project ""
+			(project "power adapter"
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "#PWR9")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -3127,6 +2238,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3163,73 +2275,6 @@
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "#FLG2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 127 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9371ca1-9e39-46cb-bb9e-80d3ab5e3bfb")
-		(property "Reference" "E1"
-			(at 115.57 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 115.57 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "05541f0a-720a-4f68-b29b-cdd2c2f92aa9")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E1")
 					(unit 1)
 				)
 			)
@@ -3296,450 +2341,6 @@
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 99.06 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d34f2d19-3447-4a6a-80c2-a069475c4dd3")
-		(property "Reference" "E2"
-			(at 87.63 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 87.63 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d877de69-738e-4485-9f50-eef68813c745")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "esp32lib:T491C106M025AT7280")
-		(at 34.29 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d97b66b2-5515-43e8-8bbc-2a2108a0d05d")
-		(property "Reference" "C3"
-			(at 37.6174 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "T491C106M025AT7280"
-			(at 37.6174 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "customfootprints:10uFtantcap"
-			(at 35.052 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "T491C106M025AT7280"
-			(at 34.798 41.402 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50d813d9-7830-4fad-a5f3-cd23dd25cc2d")
-		)
-		(pin "2"
-			(uuid "2b04d686-490f-4487-891a-2e5829107d7d")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:ceramiccap")
-		(at 38.1 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de2e3d53-f365-4c89-9763-871f92178e45")
-		(property "Reference" "C2"
-			(at 39.37 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ".01uF"
-			(at 39.37 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "adpterpcblib:CAPC1608X90N"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "E_max" "0.9"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_max" "0.5"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_max" "0.9"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_nom" "0.3"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_max" "1.7"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_nom" "0.9"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_max" "0.5"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L1_min" "0.1"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "A_min" "0.9"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_min" "0.7"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_min" "1.5"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "D_nom" "1.6"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "E_nom" "0.8"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_min" "0.1"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "L_nom" "0.3"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 38.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5f7391e-e484-42fd-a39c-c830e43e835f")
-		)
-		(pin "1"
-			(uuid "44e4a218-6fde-47ef-ae38-502377ef751d")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "adapterlib:Edge")
-		(at 62.23 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4d01022-8f66-4372-8ff3-2b9fc45094a4")
-		(property "Reference" "E3"
-			(at 50.8 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 50.8 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "adpterpcblib:edge"
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea91a54d-b93c-40c9-92ec-c74f8c9f5ab4")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "E3")
 					(unit 1)
 				)
 			)
@@ -4060,72 +2661,6 @@
 			(project ""
 				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
 					(reference "jk2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 44.45 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fde863be-1613-4539-8b6a-36e73cc1fb99")
-		(property "Reference" "#FLG3"
-			(at 44.45 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 44.45 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca1ab8e5-ce17-4ead-a97b-4068e2ba52a5")
-		)
-		(instances
-			(project ""
-				(path "/91d95850-e011-4872-8c18-f0f818ae8f1c"
-					(reference "#FLG3")
 					(unit 1)
 				)
 			)
